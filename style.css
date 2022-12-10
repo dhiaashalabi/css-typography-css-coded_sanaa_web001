@@ -1,0 +1,27 @@
+* {
+  border: 1px solid grey;
+}
+/*Pick two fonts from google fonts and change your fonts, one font for the headings and one font for everything else on the page bonus points if you can do this with only two lines of CSS code*/
+h1,
+h2 {
+  font-family: "Lobster", cursive;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* Style the nav - change the colour from ugly blue, add some letter spacing, center the links, remove the underline*/
+nav {
+  background-color: #f1f1f1;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+/*Add letter spacing to the headings and change the font size */
+h1,
+h2 {
+  letter-spacing: 0.2em;
+  font-size: 2em;
+}
+/*Add line height to the paragraphs*/
+p {
+  line-height: 1.5em;
+}
